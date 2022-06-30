@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="makereqjitesh.css">
+    <script src="makereqjitesh.js"></script>
+    <title>request making portal</title>
+
+</head>
+
+<body onload="loaded()">
+    <div id="mySidebar" class="sidebar">
+        <button class="closebtn" onclick="closeNav()">x</button>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+    </div>
+
+
+    <div id="whole">
+
+
+
+        <div id="main">
+            <div class="navbar">
+                <span class="content1">
+                    DonateFoodForLife
+                </span>
+                <button class="openbtn" onclick="openNav()">☰</button>
+            </div>
+        </div>
+
+
+        <div class="dashboard">
+            <h1>
+                Request Here
+            </h1>
+        </div>
+
+
+        <div class="section1">
+            <div class="inn1sec1">
+                <button class="reqclosebtn">X</button>
+                <div class="innsec1">
+                    <div class="p1">
+                        <img class="reqimg" src="pic4.jpg" alt="">
+                    </div>
+
+
+
+                    <div class="p2">
+
+
+                        <div id="SignInPopUp" class="SignInPop" method="POST" action="/SignIn">
+
+                            <form class="SignUpform" onsubmit="return verify()" name="SUForm">
+                    
+                             
+                    
+                    
+                                <input type="text" name="name" class="formbox" placeholder="Enter Your Name">
+                                <input type="text" name="userid" class="formbox" placeholder="Enter Your User Name">
+                                <input type="email" name="email" class="formbox" placeholder="Enter Your Email">
+                                <input type="password" class="formbox" name="password1" placeholder="Enter Your Password">
+                                <input type="password" class="formbox" name="password2" placeholder="Confirm Password">
+                    
+                    
+                                <div>
+                                    <button type="submit" onclick=verify() class="signupbtn">Sign Up</button>
+                                </div>
+                    
+                            </form>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="section3">
+            <img class="imgsec3" src="motivation.jpg" alt="">
+        </div>
+
+        <footer>
+            <div class="footerwhole">
+
+                <div class="footersec">
+                    <h3>
+                        BRIEF US
+                    </h3>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tenetur!
+                    </div>
+
+
+                </div>
+
+                <div class="footersec"">
+
+                    <h3>
+                        ABOUT
+                    </h3>
+                    
+                    <div>
+                        Lorem
+                    </div>
+                    <div>
+                        Lorem
+                    </div>
+                    <div>
+                        Lorem
+                    </div>
+
+
+                </div>
+
+                <div class=" footersec"">
+
+                    <h3>
+                        CONTACT
+                    </h3>
+                    <div>
+                        Lorem
+                    </div>
+                    <div>
+                        Lorem
+                    </div>
+                    <div>
+                        Lorem
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+            <div class="footersec2">
+                <h3>
+                    CONTACT
+                </h3>
+
+            </div>
+
+
+
+
+
+        </footer>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
